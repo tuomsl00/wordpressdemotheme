@@ -1,0 +1,169 @@
+/*
+Theme Name: Demo theme
+Theme URI: http://localhost
+Author: Tuomo Osola
+Author URI: https://www.linkedin.com/in/tuomo-osola-2816aa138/
+Description: Demo theme
+Version: 1.0
+*/
+
+html, body {
+ height: 100%;
+}
+
+.mainwrapper {
+	min-height: 100%;
+	margin-bottom: -100px;
+}
+
+.footerfix {
+	height: 100px;
+}
+
+.delimiter1 {
+	background-image: url('background-image-url1.jpg');
+	background-attachment: fixed;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.delimiter2 {
+	background-image: url('background-image-url2.jpg');
+	background-attachment: fixed;
+	min-height: 100px;
+}
+
+.delimiterend {
+	background-image: url('background-image-url1.jpg');
+	padding: 50px;
+	background-position: 0px -100%;
+	height: auto;
+	color: #ffffff;
+}
+
+.display-4 {
+	color: white;
+}
+
+.stripe {
+	background-image: url('background-image-url1.jpg');
+	background-attachment: fixed;
+	height: 5px;
+	margin: 0px;
+	margin-top: 10px;
+	background-position: 0px 350px;
+}
+
+.delimiter2:after {
+
+}
+
+.footer, .delimiter2:after {
+}
+
+.pagelink {
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.sticky > a:link {
+	text-decoration: none;
+}
+
+.pagelink:hover {
+	background-color: #aaaaaa;
+}
+
+footer {
+	position: relative;
+	bottom: 0px;
+	height: 100px;
+	background-color: #c8c8c8;
+}
+
+.jumbotron {
+	background-image: url('background-image-url1.jpg');
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+.sticky {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	top: 0px;
+	color: #ffffff;
+}
+
+.stickywrap {
+	padding: 0px;
+}
+
+.service {
+	background-color: #ffffff;
+}
+
+.footer {
+	background-color: #c8c8c8;
+}
+
+.sampl {
+	padding-top: 50%;
+	color: #ffffff;
+	overflow: hidden;
+ }
+
+.samplback {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	transition-property: scale(1);
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+
+.samplback:hover {
+	transform: scale(1.2);
+}
+
+
+
+.samplecontainer {
+	height: 100%;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 20px;
+	background-color: #aaaaaa77
+}
+
+.person {
+	text-align: center;
+}
+
+.personimg {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 5px double #acacac;
+}
+
+.personwrapper {
+	border: 1px solid red;
+	height: 1000px;
+}
+
+.signature {
+	text-align: center;
+}
