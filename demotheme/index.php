@@ -25,13 +25,13 @@
 			<?php the_content(); ?>
 		</div>
 		<div class="col-5 col-lg-4">
-			<img src="<?php the_post_thumbnail_url(); ?>" />
+			<img src="<?php the_post_thumbnail_url('servive-image'); ?>" />
 		</div>
 	<?php
 		} else {
 	?>
 		<div class="col-5 col-lg-4">
-			<img src="<?php the_post_thumbnail_url(); ?>" />
+			<img src="<?php the_post_thumbnail_url('servive-image'); ?>" />
 		</div>
 			<div class="col-7 col-lg-8">
 			<h3><?php the_title(); ?></h3>

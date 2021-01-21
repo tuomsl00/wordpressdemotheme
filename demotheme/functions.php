@@ -53,9 +53,11 @@ function create_posttype() {
             'rewrite' => array('slug' => 'persons'),
         )
     );
+	add_image_size( 'service-image', 128, 128 );
 }
 
 add_action( 'init', 'create_posttype' );
+
 add_theme_support( 'post-thumbnails' ); 
 
 ?>
